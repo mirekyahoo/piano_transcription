@@ -1,0 +1,5 @@
+DATASET_DIR="/Volumes/8dio/maestro-v3.0.0"
+WORKSPACE="/Volumes/8dio/NEW_WAV_MIDI"
+
+# Pack audio files to hdf5 format for training
+/Users/user/anaconda3/envs/pianotrans/bin/python -m utils.processing convert_and_copy --dataset_dir=$DATASET_DIR --workspace=$WORKSPACE
